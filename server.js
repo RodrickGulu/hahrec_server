@@ -27,7 +27,7 @@ const transporter = nodemailer.createTransport({
 // Function to send mail based on form type
 const sendMail = async (formType, data) => {
   const { name, email, message, genre } = data;
-  const recipientEmail = 'rodrickgulu24@gmail.com'; // Replace with the recipient's email
+  const recipientEmail = 'hitafterhit004@gmail.com'; // Replace with the recipient's email
 
   if (!recipientEmail) {
     throw new Error('Recipient email not specified.');
